@@ -19,7 +19,10 @@
 
     <!-- Custom styles for this template-->
     <link href="<?= base_url('aset/css/sb-admin-2.min.css');?>" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
 
+    
 </head>
 
 <body id="page-top">
@@ -310,7 +313,7 @@
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="<?= base_url('aset/https://source.unsplash.com/Mv9hjnEUHR4/60x60'); ?>"
+                                        <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60"
                                             alt="...">
                                         <div class="status-indicator bg-success"></div>
                                     </div>
@@ -423,12 +426,17 @@
     <script src="<?= base_url('aset/js/sb-admin-2.min.js'); ?>"></script>
 
     <!-- Page level plugins -->
-    <script src="<?= base_url('aset/vendor/chart.js/Chart.min.js'); ?>"></script>
+    <!-- <script src="<?= base_url('aset/vendor/chart.js/Chart.min.js'); ?>"></script> -->
 
     <!-- Page level custom scripts -->
-    <script src="<?= base_url('aset/js/demo/chart-area-demo.js'); ?>"></script>
-    <script src="<?= base_url('aset/js/demo/chart-pie-demo.js'); ?>"></script>
+    <!-- <script src="<?= base_url('aset/js/demo/chart-area-demo.js'); ?>"></script> -->
+    <!-- <script src="<?= base_url('aset/js/demo/chart-pie-demo.js'); ?>"></script> -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
 
+    <?php if($js){ ?> 
+        <script src="<?= base_url('aset/js/'.$js); ?>"></script>
+    <?php } ?>
 </body>
 
 </html>
