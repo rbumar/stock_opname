@@ -8,7 +8,6 @@
     <label for="periode" class="col-4 col-form-label">Periode</label> 
     <div class="col-8">
       <select id="periode" name="periode" class="selectpicker" required="required">
-        <option value="rabbit">Rabbit</option>
       </select>
     </div>
   </div>
@@ -54,9 +53,6 @@
     <label for="sub_regional" class="col-4 col-form-label">Sub Regional</label> 
     <div class="col-8">
       <select id="sub_regional" name="sub_regional" class="selectpicker">
-        <option value="rabbit">Rabbit</option>
-        <option value="duck">Duck</option>
-        <option value="fish">Fish</option>
       </select>
     </div>
   </div>
